@@ -1,0 +1,39 @@
+{
+  "props": [
+    {
+      "name": "bodyText",
+      "type": "fontsize",
+      "value": "14px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "x53YSqYu9UQKZv7sZYfY6w",
+        "id": "tpkFLA1wK"
+      }
+    },
+    {
+      "name": "subtitle font size",
+      "type": "fontsize",
+      "value": "12px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "x53YSqYu9UQKZv7sZYfY6w",
+        "id": "rMQBeqA1m"
+      }
+    },
+    {
+      "name": "title font size",
+      "type": "fontsize",
+      "value": "20px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "x53YSqYu9UQKZv7sZYfY6w",
+        "id": "y8kQven4J"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "enk3K4vZ6pmH6kVCoZJXGn",
+      "projectApiToken": "3n3SKEMyDjMJptsNvaK6yxRaa8PAgqwkfIhRbKT4ZG9SobeM3Kb5rE2pSYmbR338Z5p6vBTScOAnptZwGSbQ",
+      "projectName": "react-youtube",
+      "version": "4.15.0",
+      "cssFilePath": "plasmic/react_youtube/plasmic_react_youtube.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CHO21V9uYw",
+          "name": "YouTube",
+          "displayName": "hostless-youtube",
+          "componentImportPath": "@plasmicpkgs/react-youtube"
+        }
+      ]
+    },
+    {
+      "projectId": "x53YSqYu9UQKZv7sZYfY6w",
+      "projectApiToken": "d50KWRkLJs8E0GmM4Dvp2F46gtErG3WuadAheGD2AGxgr31f8UAdG17XfR55Ch5yWHuAxR4c5GBecVZ3A",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "dZsVy1jjoywq",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "x53YSqYu9UQKZv7sZYfY6w",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "fqf1kH04rK",
+          "name": "DetailPage",
+          "type": "managed",
+          "projectId": "x53YSqYu9UQKZv7sZYfY6w",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicDetailPage.tsx",
+          "importSpec": {
+            "modulePath": "DetailPage.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicDetailPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "VAwcC_YmCU",
+          "name": "BodyContent",
+          "type": "managed",
+          "projectId": "x53YSqYu9UQKZv7sZYfY6w",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicBodyContent.tsx",
+          "importSpec": {
+            "modulePath": "BodyContent.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicBodyContent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "wOrb6CQ7hBC0F",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "HNQV41OA8KRXT",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "lZZLuAVZSjSEW",
+        "name": "Screen",
+        "projectId": "x53YSqYu9UQKZv7sZYfY6w",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.286",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.286/dist/plasmic.schema.json"
+}

@@ -1,0 +1,71 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  min-width: 0;
+  padding: 8px;
+}
+.text__hq9Xm {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.text__oDjm1 {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-size: var(--token-y8kQven4J);
+  min-width: 0;
+}
+.text__vJWdd {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-size: var(--token-rMQBeqA1m);
+  min-width: 0;
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.bodyContent:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.text__gJbGl {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: #ff6e6e;
+  min-width: 0;
+}
